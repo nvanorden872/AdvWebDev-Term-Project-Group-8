@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div id="grid">
+      
+    <!--site title and bio -->
+      <div id="contrast">
+        <h1>tmbd.com</h1>
+        <p>Search for your favorite movies, see what's trending, and add films to your watchlist with tmdb.com</p>
+      </div>
+
+      <!--search-->
+      <section>
+        <div id="search"> 
+          <form> <!--use 'form' so clicking the enter button counts as a submission-->
+            <input type="text" id="searchInput">
+            <button id="searchButton" type="submit">Search</button>
+          </form>
+        </div>
+      </section>  
+
+      <!--results-->
+      <section id="hide"> <!--use js to show when search is compelted-->
+        <h3>Search Results</h3>
+
+        <div> <!--page number -->
+          <label for="pageNumber">Page:</label>
+          <select id="pageNumber">
+          </select>    
+        </div>
+        
+        <div id="results">
+          
+        </div>
+      </section>
+
+      <!--popular movies-->
+      <section>
+          <h3>Popular Movies</h3>
+          <div id="popular">
+
+          </div>
+      </section>
+
+      <!-- movie details-->
+      <section>
+        <h3>Details</h3>
+        <div id="details">
+
+        </div>
+      </section>
+
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src=".js"></script>
+
+  </body>
+</html>
