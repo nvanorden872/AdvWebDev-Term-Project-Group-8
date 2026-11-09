@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+  background-color: #032541;
+}
+
+#contrast {
+  color: white;
+}
+  
+#hide { 
+  display: none;
+}
+
+section {
+  background: white;
+}
+
+#grid {
+  display: grid;
+}
+
+#search {
+
+}
+
+#pageNumber {
+
+}
+
+#searchButton {
+
+}
+
+#searchInput {
+
+}
+
+#results {
+
+}
+#popular {
+
+}
+#details {
+  
+}
